@@ -1,13 +1,13 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: black;
 }
 
 html,
 body {
   height: 100%;
   width: 100%;
+  background-color: black;
 }
 
 body {
@@ -15,8 +15,19 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 20px;
+  flex-direction: column;
 }
 
 #box {
-  background-color: crimson;
+  height: 250px;
+  width: 250px;
+  background-color: lightseagreen;
+  border-radius: 50%;
+  border: 6px solid white;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 20px;
 }
