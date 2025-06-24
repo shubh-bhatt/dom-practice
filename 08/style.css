@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+button {
+  background-color: rgb(3, 136, 90);
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 25px;
+  font-weight: 600;
+  z-index: 9;
+}
+
+button:active {
+  scale: 0.95;
+}
+
+
+#box {
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+}
