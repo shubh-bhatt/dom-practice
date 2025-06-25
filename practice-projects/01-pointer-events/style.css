@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+body {
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: none;
+}
+
+#pointer {
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  transition: top 0.05s linear, left 0.05s linear;
+}
