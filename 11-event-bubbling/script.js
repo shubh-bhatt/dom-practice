@@ -1,6 +1,6 @@
 let arr = [
   {
-    username: "Shubham",
+    username: "Shubham, 23",
     age: 23,
     isMarried: false,
     image:
@@ -21,21 +21,3 @@ let arr = [
       "https://images.unsplash.com/photo-1733576277415-893e52834981?q=80&w=771&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
 ];
-
-let sum = "";
-arr.forEach(function (elem) {
-  sum =
-    sum +
-    `<div class="card">
-      <img
-        src="${elem.image}"
-        alt=""
-      />
-      <h1>${elem.username}</h1>
-      <h5>${elem.age}</h5>
-      <h4>Married: ${elem.isMarried}</h4>
-    </div>`;
-});
-
-let body = document.querySelector("body");
-body.innerHTML = sum;
