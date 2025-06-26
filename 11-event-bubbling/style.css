@@ -17,14 +17,16 @@ img {
   object-fit: cover;
 }
 
-body {
+#main {
+  height: 100%;
+  width: 100%;
   background-color: black;
   display: flex;
-  align-items: start;
-  justify-content: start;
-  padding: 20px;
-  flex-wrap: nowrap;
+  align-items: flex-start;
   gap: 20px;
+  padding: 20px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -47,4 +49,9 @@ button {
 
 button:active {
   scale: 0.95;
+}
+
+h3 {
+  margin-top: 10px;
+  font-size: 25px;
 }
