@@ -12,5 +12,5 @@ body.addEventListener("mousemove", function (dets) {
   pointer.style.left = `${dets.x}px`;
   pointer.style.transform = "translate(-50%, -50%)";
 
-  console.log(dets.x);
+  console.log(dets.x, dets.y);
 });
